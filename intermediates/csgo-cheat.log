@@ -1,0 +1,10 @@
+﻿C:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (.\intermediates\) contains files shared from another project (csgo-cheat.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  hooks.cpp
+  menu.cpp
+  Generating Code...
+menu.obj : error LNK2019: unresolved external symbol "void __cdecl zgui::poll_input(class std::basic_string_view<char,struct std::char_traits<char> >)" (?poll_input@zgui@@YAXV?$basic_string_view@DU?$char_traits@D@std@@@std@@@Z) referenced in function "void __cdecl menu::render(void)" (?render@menu@@YAXXZ)
+menu.obj : error LNK2019: unresolved external symbol "bool __cdecl zgui::begin_window(class std::basic_string_view<char,struct std::char_traits<char> >,struct zgui::vec2,unsigned long,int)" (?begin_window@zgui@@YA_NV?$basic_string_view@DU?$char_traits@D@std@@@std@@Uvec2@1@KH@Z) referenced in function "void __cdecl menu::render(void)" (?render@menu@@YAXXZ)
+menu.obj : error LNK2019: unresolved external symbol "void __cdecl zgui::end_window(void)" (?end_window@zgui@@YAXXZ) referenced in function "void __cdecl menu::render(void)" (?render@menu@@YAXXZ)
+menu.obj : error LNK2019: unresolved external symbol "void __cdecl zgui::checkbox(char const *,bool &)" (?checkbox@zgui@@YAXPBDAA_N@Z) referenced in function "void __cdecl menu::render(void)" (?render@menu@@YAXXZ)
+menu.obj : error LNK2019: unresolved external symbol "void __cdecl zgui::slider_int(char const *,int,int,int &)" (?slider_int@zgui@@YAXPBDHHAAH@Z) referenced in function "void __cdecl menu::render(void)" (?render@menu@@YAXXZ)
+.\output\debug\wiiner.dll : fatal error LNK1120: 5 unresolved externals
